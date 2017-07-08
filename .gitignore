@@ -1,0 +1,6 @@
+.settings
+/bin/
+/logs/
+/upgradeManifest/
+.classpath
+.project
