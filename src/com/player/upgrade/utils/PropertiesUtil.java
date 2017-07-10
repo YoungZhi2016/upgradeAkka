@@ -45,7 +45,7 @@ public enum PropertiesUtil {
 		try {
 			props = new Properties();
 			InputStream ins = new BufferedInputStream(
-					new FileInputStream(new File(ROOT_PATH + "/config/upgrade.conf")));
+					new FileInputStream(new File(ROOT_PATH + "/config/application.properties")));
 			props.load(ins);
 			ins.close();
 		} catch (IOException e) {
